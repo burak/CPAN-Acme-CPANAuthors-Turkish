@@ -1,8 +1,9 @@
 package Acme::CPANAuthors::Turkish;
 use strict;
+use vars qw( $VERSION );
 use warnings;
 
-our $VERSION = '0.10';
+$VERSION = '0.10';
 
 use Acme::CPANAuthors::Register (
     BURAK => 'Burak Gürsoy',
@@ -12,6 +13,8 @@ use Acme::CPANAuthors::Register (
 1;
 
 __END__
+
+=pod
 
 =head1 NAME
 
