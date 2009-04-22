@@ -3,7 +3,7 @@ use strict;
 use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.12';
+$VERSION = '0.13';
 
 use Acme::CPANAuthors::Register (
     BURAK => 'Burak Gürsoy',
