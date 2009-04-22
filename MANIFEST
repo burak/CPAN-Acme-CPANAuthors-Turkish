@@ -3,6 +3,5 @@ Changes
 lib/Acme/CPANAuthors/Turkish.pm
 MANIFEST
 README
-t/01-pod.t
-t/02-pod-coverage.t
-t/03-basic.t
+t/003-basic.t
+SPEC
