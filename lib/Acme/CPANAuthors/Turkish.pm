@@ -3,11 +3,17 @@ use strict;
 use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.14';
+$VERSION = '0.20';
 
 use Acme::CPANAuthors::Register (
-    BURAK => 'Burak Gürsoy',
-    ENGIN => 'Engin Gündüz',
+    AULUSOY => 'Ayhan Ulusoy',
+    BDD     => 'Berk D. Demir',
+    BURAK   => 'Burak Gürsoy',
+    ENGIN   => 'Engin Gündüz',
+    MUTOGUZ => 'Oğuz Mut',
+    NANIS   => 'A. Sinan Ünür',
+    TTAR    => 'Tolga Tarhan',
+    ZIYA    => 'Ziya Süzen',
 );
 
 1;
@@ -34,7 +40,7 @@ Acme::CPANAuthors::Turkish - Türk CPAN Yazarları
    my $number   = $authors->count;
    my @ids      = $authors->id;
    my @distros  = $authors->distributions('BURAK');
-   my $url      = $authors->avatar_url('ENGIN');
+   my $url      = $authors->avatar_url('BURAK');
    my $kwalitee = $authors->kwalitee('BURAK');
 
 =head1 DESCRIPTION
