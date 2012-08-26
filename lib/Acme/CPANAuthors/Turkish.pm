@@ -1,9 +1,8 @@
 package Acme::CPANAuthors::Turkish;
 use strict;
-use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.21';
+our $VERSION = '0.21';
 
 use Acme::CPANAuthors::Register (
     AULUSOY => 'Ayhan Ulusoy',
