@@ -1,9 +1,8 @@
 package Acme::CPANAuthors::Turkish;
+
 use strict;
 use warnings;
 use utf8;
-
-our $VERSION = '0.23';
 
 use Acme::CPANAuthors::Register (
     AULUSOY => 'Ayhan Ulusoy',
