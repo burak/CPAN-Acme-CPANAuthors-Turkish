@@ -1,7 +1,0 @@
-Build.PL
-Changes
-lib/Acme/CPANAuthors/Turkish.pm
-MANIFEST
-README
-t/003-basic.t
-SPEC
